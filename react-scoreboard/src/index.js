@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Scoreboard from './Scoreboard';
+import Scoreboard from './components/Scoreboard';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Scoreboard />, document.getElementById('root'));
+ReactDOM.render(<Scoreboard  />, document.getElementById('root'));
 registerServiceWorker();
